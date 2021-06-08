@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JOB COUNT</title>
+  <script type="text/javascript" src="onClickHandler.js"></script>
+
+  <style>
+    .btn {
+      height: 75px;
+      width: 150px;
+      margin: 20px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .caution {
+      color: red;
+    }
+
+    .text{
+      text-align: justify-all;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container" align="center">
+  <h1>Click the button to increase the counter.</h1>
+  <button class="btn" onclick="onClickReset()"><h1>Reset</h1></button>
+  <button class="btn" onclick="onClickCounter()"><h1>Count</h1></button>
+  <br><br>
+  <h1 id="counter">Count:0</h1>
+
+  <h1 class="caution">CAUTION!!</h1>
+  <div class="text">
+    <h3 class="caution">1. DO NOT REFRESH THE PAGE.</h3>
+    <br>
+    <strong>DOING SO MAY RESULT IN RESETTING THE COUNTER TO ZERO</strong>
+  </div>
+</div>
+
+</body>
+</html>
